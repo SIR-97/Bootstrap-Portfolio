@@ -1,0 +1,58 @@
+
+
+/* General */
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-top: 20px;
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+ 
+  
+  /* Navigation links */
+  .customNav a {
+    color: white !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+  
+
+
+
+.jumbotron {
+    background-image: url(../Images/istockphoto-1326304939-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 250px);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #C1C3C4;
+    
+}
+
+.lead {
+    margin-right: 120px;
+    text-align: center;
+    color: azure;
+}
+
+.jumbotron img{
+    margin-right: 50px;
+}
