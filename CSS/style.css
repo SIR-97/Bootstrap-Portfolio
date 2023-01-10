@@ -5,7 +5,15 @@
 
 .body {
   width:max-content;
+  
 }
+
+ h2, h3, h4, h5, h6 {
+  margin-top: 30px;
+  margin-bottom: 0.5rem;
+}
+
+  /* Navigation */
 .customNav {
     position: fixed;
     top: 0;
@@ -15,6 +23,11 @@
     background-size: cover;
     z-index: 10;
   }
+  
+
+  .customNav a {
+    color: white !important;
+  }
   .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
@@ -22,19 +35,13 @@
   .navbar-brand img {
     padding-top: 20px;
     padding-right: 15px;
-    width: 65px;
+    width: 75px;
   }
   .nav-item {
-    margin: 0px 10px;
+    margin: 0px 20px;
   }
-  
- 
-  
-  /* Navigation links */
-  .customNav a {
-    color: white !important;
-  }
-  .navCTA {
+
+.navCTA {
     font-size: 15px;
   }
   
@@ -65,5 +72,21 @@
 .jumbotron img{
     margin-right: 50px;
     position: relative;
-    top: 25px;
+    top: 20px;
 }
+
+.container-fluid.mb-5.ml-4{
+  position: relative;
+  bottom: 5px;
+  padding-block-start: 20px;
+
+}
+
+.cardContainer.col-lg-10.mb-5 {
+  position: relative;
+  left: 70px;
+  top: 20px
+}
+
+
+
