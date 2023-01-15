@@ -75,6 +75,10 @@
     top: 20px;
 }
 
+.card{
+  margin-bottom: 30px;
+}
+
 .container-fluid.mb-5.ml-4{
   position: relative;
   bottom: 5px;
@@ -88,28 +92,10 @@
   top: 20px
 }
 
-
-/* Start styling for footer section */
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding-top: 30px;
-  margin-bottom: 20px;
-  background-color: rgb(12, 118, 225);
-}
-
-.footer-background {
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-
-#contact-list {
-  width: 60%;
+.h3, h3 {
+  font-size: 2rem;
+  position: relative;
+  right: 316px;
 }
 
 footer ul {
@@ -120,6 +106,7 @@ footer ul {
   align-content: center space-around;
   font-size: 30px;
   font-weight: bolder;
+  
 }
 
 footer ul li {
@@ -129,16 +116,18 @@ footer ul li {
 
 footer ul li a {
   text-decoration: none;
-  color: whitesmoke;
+  color:rgb(1, 1, 1);
   padding: 10px;
   font-weight: bold;
 }
 
 footer ul li a:hover {
-  background: var(--black);
-  color: var(--ocean-blue);
+  background: black;
+  color: white;
   border-radius: 15px;
 }
+
+
 /*  End styling for footer section */
 
 
